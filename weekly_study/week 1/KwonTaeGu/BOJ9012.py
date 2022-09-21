@@ -21,3 +21,4 @@ for _ in range(t):
         print('YES')
     elif stk or not isVPS:
         print('NO')
+
