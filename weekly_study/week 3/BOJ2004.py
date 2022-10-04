@@ -2,7 +2,6 @@
 import sys
 n, m = map(int, sys.stdin.readline().split())
 
-
 def count_number(n, k):
     count = 0
     while n:
