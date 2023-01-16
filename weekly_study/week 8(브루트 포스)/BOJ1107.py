@@ -1,4 +1,5 @@
 # 리모컨
+
 target = int(input())
 n = int(input())
 broken = list(map(int, input().split()))
@@ -19,7 +20,9 @@ for nums in range(1000001):
 
 print(min_count)
 
+
 '''
+
 n = int(input())
 t = int(input())
 broken = list(map(int, input().split()))
