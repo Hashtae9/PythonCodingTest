@@ -35,7 +35,6 @@ dfs(start, 0)
 
 print(max(distance))
 
-
 ''' 시간초과
 import sys
 from collections import deque
