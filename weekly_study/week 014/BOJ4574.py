@@ -70,8 +70,8 @@ while True:
                 Ecnt += 1
     go(0, itr)
     itr += 1
-
 '''
+#
 import itertools
 from collections import deque
 import sys
@@ -145,7 +145,7 @@ while True:
             sdoku[x+1][y] = 0
             blank.insert(index1, (x+1, y))
 
-        elif checkRow(x, b) and checkCol(y, b) and checkRect(x, y, b) \
+        if checkRow(x, b) and checkCol(y, b) and checkRect(x, y, b) \
                 and checkRow(x+1, a) and checkCol(y, a) and checkRect(x+1, y, a):
             sdoku[x][y] = b
             sdoku[x+1][y] = a
@@ -169,7 +169,7 @@ while True:
             sdoku[x][y+1] = 0
             blank.insert(index3, (x, y+1))
 
-        elif checkRow(x, b) and checkCol(y, b) and checkRect(x, y, b) \
+        if checkRow(x, b) and checkCol(y, b) and checkRect(x, y, b) \
                 and checkRow(x, a) and checkCol(y+1, a) and checkRect(x, y+1, a):
             sdoku[x][y] = b
             sdoku[x][y+1] = a
@@ -190,8 +190,6 @@ while True:
 
         for a, b in com:
             if blank:
-                print(idx)
-                print(blank)
                 x, y = blank.popleft()
                 if x != 8 and sdoku[x+1][y] == 0 :
                     com.remove((a, b))
