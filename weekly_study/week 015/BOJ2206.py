@@ -40,7 +40,6 @@ def bfs(x, y, z):
                 queue.append((nx, ny, c))
     return -1
 
-
 print(bfs(0, 0, 0))
 
 
