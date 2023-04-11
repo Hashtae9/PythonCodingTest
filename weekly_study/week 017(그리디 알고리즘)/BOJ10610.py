@@ -26,10 +26,10 @@ num = list(map(int, list(sys.stdin.readline().strip())))
 num.sort(key=lambda x : -x)
 
 if 0 not in num: print(-1); exit()
-num.pop()
+num.pper = list(itertools.permutations(num, i))op()
 
 for i in range(len(num), 0, -1):
-    per = list(itertools.permutations(num, i))
+    
     for j in per:
         a = int(''.join(map(str, j)))
         if a%3==0: print(a*10); exit()

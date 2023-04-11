@@ -8,6 +8,9 @@ def solution():
         a += 1
         b -= 1
 
+    # 10 12
+    # 2 8
+
     if k == 0:
         return 'B'*n
     elif b == 0:
