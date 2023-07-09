@@ -2,7 +2,9 @@
 
 ## 그래프
 
-<img src="https://user-images.githubusercontent.com/101400894/212793723-c251ba8e-32e5-455d-8872-ddd6507a9093.png" alt="image" style="zoom:47%;" ALIGN="LEFT"/>
+<img src="https://user-images.githubusercontent.com/101400894/212793723-c251ba8e-32e5-455d-8872-ddd6507a9093.png" alt="image" style="zoom:47%;"/>
+
+<br>
 
 > 파이썬에서는 그래프를 딕셔너리를 이용하여 나타냄
 
